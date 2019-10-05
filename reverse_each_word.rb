@@ -4,4 +4,5 @@ def reverse_each_word(string)
   string.collect {|i| reversed.unshift(i)
   return reversed.join("")
 end 
+end 
   
