@@ -1,7 +1,7 @@
 def reverse_each_word(names)
   splitnames = name.split("")
   reversed=[]
-  names.collect do |name| reversed << splitnames.pop
+  names.collect do |name| reversed << splitnames.reverse
 end 
-puts new_array
+puts reversed
 end 
