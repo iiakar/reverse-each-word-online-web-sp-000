@@ -5,4 +5,4 @@ def reverse_each_word(string)
   return reversed.join("")
 end 
 
-  
+  reverse_each_word("I love Ruby!")
