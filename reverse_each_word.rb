@@ -1,7 +1,7 @@
 def reverse_each_word(names)
   
   newarray = Array.new
-  names.collect {|name| newarray << name.reverse}
- 
+  names.collect do |name| newarray << name.reverse
+ end 
+  puts newarray
 end 
- puts newarray
