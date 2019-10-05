@@ -1,2 +1,5 @@
 def reverse_each_word(names)
-  names.collect |name| 
+  nnames = names.split("")
+  newarray = Array.new
+  nnames.collect {|name| newarray << name.reverse}
+end 
